@@ -1,0 +1,85 @@
+/* General page styling */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(120deg, #ffe6f0, #d9f0ff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #fff0f5;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #a052cd;
+    margin-bottom: 20px;
+}
+
+/* Quiz options */
+.question {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.question h3 {
+    color: #ff1493;
+    margin-bottom: 5px;
+}
+
+.options label {
+    display: block;
+    background: #ffe6f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.options input[type="radio"] {
+    margin-right: 10px;
+}
+
+.options label:hover {
+    background: #ffd1e8;
+}
+
+/* Button styling */
+#submit {
+    background: #ff69b4;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+#submit:hover {
+    background: #ff85c1;
+}
+
+/* Result styling */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff1493;
+}
